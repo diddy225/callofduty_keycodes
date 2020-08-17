@@ -1,0 +1,42 @@
+.main-img {
+  background-image: url('../assets/images/warzone.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+  font-family: 'Bungee', cursive;
+}
+
+#goback {
+  font-size: 30px;
+  text-decoration: none;
+  color: RED;
+}
+
+.list-header {
+  font-size: 50px;
+  color: #876c47;
+  text-transform: uppercase;
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+.code-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.code-list li {
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  border: 1px solid #ccc;
+  color: #333;
+}
